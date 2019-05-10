@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GlobalConfiguration>
+    <Location>
+        <ConfigFilePath>src/main/resources/configfiles</ConfigFilePath>
+
+        <ChromeDriverPath>E:\Scripts\eCareERP\src\main\resources\driverlocation\chromedriver.exe</ChromeDriverPath>>
+        <FirefoxDriverPath>E:\Scripts\eCareERP\src\main\resources\driverlocation\geckodriver.exe</FirefoxDriverPath>>
+        <IeDriverPath>E:\Scripts\eCareERP\src\main\resources\driverlocation\iedriverserver.exe</IeDriverPath>>
+        <EdgeDriverPath>E:\Scripts\eCareERP\src\main\resources\driverlocation\microsoftwebdriver.exe</EdgeDriverPath>>
+        <OperaDriverPath>E:\Scripts\eCareERP\src\main\resources\driverlocation\operadriver.exe</OperaDriverPath>
+
+        <PageConfigurationPath>src/main/resources/pageconfiguration</PageConfigurationPath>
+    </Location>
+
+    <configuration>
+        <!--chrome = Google Chrome | firefox = Mozilla Firefox | ie = Internet Explorer | edge = Microsoft Edge | opera = Opera browser-->
+        <default_browser>chrome</default_browser>
+        <default_browser>opera</default_browser>
+        <desired_url>http://qaerp.franciscanecare.net/Secure/#</desired_url>
+    </configuration>
+</GlobalConfiguration>
